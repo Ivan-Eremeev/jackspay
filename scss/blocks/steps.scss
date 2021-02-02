@@ -46,8 +46,9 @@
     max-width: 139px;
     flex-shrink: 0;
     position: absolute;
-    top: -7px;
+    top: 50%;
     left: -8px;
+    transform: translate(0,-46%);
     img {
       display: block;
     }

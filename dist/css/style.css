@@ -156,7 +156,7 @@ a {
     max-width: 600px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 64px;
+    margin-bottom: 180px;
     letter-spacing: 3.24px; }
   .welcome_title {
     display: block;
@@ -179,6 +179,10 @@ a {
     -webkit-transition: .3s;
     -o-transition: .3s;
     transition: .3s; }
+    .welcome_btn:hover {
+      background-color: #f83b3c;
+      -webkit-box-shadow: 0 0 10px rgba(248, 59, 60, 0.7);
+      box-shadow: 0 0 10px rgba(248, 59, 60, 0.7); }
   @media (max-width: 1600px) {
     .welcome > .wrapper {
       background-position: top left -200px; } }
@@ -222,6 +226,8 @@ a {
         margin-bottom: 0;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
+      .welcome_content {
+        margin-bottom: 10px; }
       .welcome_btn {
         padding: 10px; } }
   @media (max-width: 500px) {
@@ -278,8 +284,11 @@ a {
     -ms-flex-negative: 0;
     flex-shrink: 0;
     position: absolute;
-    top: -7px;
-    left: -8px; }
+    top: 50%;
+    left: -8px;
+    -webkit-transform: translate(0, -46%);
+    -ms-transform: translate(0, -46%);
+    transform: translate(0, -46%); }
     .steps_num img {
       display: block; }
   .steps_title {

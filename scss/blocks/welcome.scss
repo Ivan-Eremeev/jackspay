@@ -21,7 +21,7 @@
     max-width: 600px;
 		text-align: center;
     text-transform: uppercase;
-    margin-bottom: 64px;
+    margin-bottom: 180px;
     letter-spacing: 3.24px;
 	}
 	&_title {
@@ -45,6 +45,10 @@
     position: relative;
     overflow: hidden;
     transition: .3s;
+    &:hover {
+      background-color: #f83b3c;
+      box-shadow: 0 0 10px rgba(248,59,60,.7);
+    }
   }
   @media (max-width: 1920px) {
   }
@@ -97,8 +101,6 @@
     background: linear-gradient(to bottom, #000, #333);
     >.wrapper {
       background: none;
-      // background-position: top 530px center;
-      // background-size: contain;
     }
     &_row {
       justify-content: center;
@@ -106,7 +108,7 @@
       flex-wrap: wrap;
     }
     &_content {
-      // margin-bottom: 80%;
+      margin-bottom: 10px;
     }
     &_title {
     }
@@ -116,10 +118,8 @@
   }
   @media (max-width: $break_xs) {
     >.wrapper {
-      // background-position: top 430px center;
     }
     &_content {
-      // margin-bottom: 350px;
     }
     &_title {
       font-size: 28px;
