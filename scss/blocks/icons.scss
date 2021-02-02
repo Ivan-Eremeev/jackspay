@@ -1,0 +1,25 @@
+.icons {
+  background-color: #252424;
+  &_row {
+    padding-top: 15px;
+    margin-left: -14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &_img {
+    // max-width: 110px;
+    padding-left: 14px;
+    margin-bottom: 15px;
+    img {
+      display: block;
+    }
+  }
+  @media (max-width: $break_xl) {
+    padding-top: 5px;
+    &_img {
+      margin-bottom: 5px;
+    }
+  }
+}

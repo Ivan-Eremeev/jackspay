@@ -1,0 +1,130 @@
+extends blocks/base.jade
+
+block title 
+	title Главная
+
+block style-libs
+	//- link(rel="stylesheet", href="css/libs/animate.min.css")
+	//- link(rel="stylesheet", href="css/libs/bootstrap-grid.min.css")
+	//- link(rel="stylesheet", href="css/libs/fullpage.css")
+	//- link(rel="stylesheet", href="css/libs/hamburgers.min.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.fancybox.min.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.mmenu.all.css")
+	//- link(rel="stylesheet", href="css/libs/jquery.scrollbar.css")
+	//- link(rel="stylesheet", href="css/libs/slick.css")
+	//- link(rel="stylesheet", href="css/libs/tooltipster.bundle.min.css")
+
+block content
+
+	.page
+		include blocks/header.jade
+
+		// welcome
+		.welcome
+			.wrapper
+				.welcome_row
+					.welcome_content
+						a(href="#").welcome_title
+							img(src="img/offer.png", alt="")
+						a(href="#").welcome_btn PLAY NOW
+				// /welcome
+				
+				// steps
+				.steps
+					.steps__row
+						.steps__col
+							a(href="#").steps_item
+								.steps_num
+									img(src="img/num_1.png", alt="")
+								.steps_content
+									.steps_title Register
+									.steps_text Quick and easy signup
+									.steps_triangle
+										img(src="img/triangle1.svg", alt="")
+						.steps__col
+							a(href="#").steps_item
+								.steps_num
+									img(src="img/num_2.png", alt="")
+								.steps_content
+									.steps_title Get your bonus 
+									.steps_text Deposit &amp; get your free spins
+									.steps_triangle
+										img(src="img/triangle2.svg", alt="")
+						.steps__col
+							a(href="#").steps_item
+								.steps_num
+									img(src="img/num_3.png", alt="")
+								.steps_content
+									.steps_title Have fun
+									.steps_text Play your favourite slots &amp; start reaping the rewards.
+									.steps_triangle
+										img(src="img/triangle3.svg", alt="")
+				//	/steps
+
+		// icons
+		.icons
+			.wrapper
+				.icons_row
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_1-big.svg")
+							img(src="img/icon_1.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_2-big.svg")
+							img(src="img/icon_2.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_3-big.svg")
+							img(src="img/icon_3.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_4-big.svg")
+							img(src="img/icon_4.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_5-big.svg")
+							img(src="img/icon_5.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_6-big.svg")
+							img(src="img/icon_6.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_7-big.svg")
+							img(src="img/icon_7.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_8-big.svg")
+							img(src="img/icon_8.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_9-big.svg")
+							img(src="img/icon_9.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_10-big.svg")
+							img(src="img/icon_10.svg", alt="")
+					.icons_img
+						picture
+							source(media="(min-width: 1400px)", srcset="img/icon_11-big.svg")
+							img(src="img/icon_11.svg", alt="")
+		//	/icons
+
+		include blocks/footer.jade
+
+block js-libs
+	//- script(src="js/libs/jquery.min.js")
+	//- script(src="js/libs/jquery.fancybox.min.js")
+	//- script(src="js/libs/slick.min.js")
+	//- script(src="js/libs/jquery.matchHeight-min.js")
+	//- script(src="js/libs/jquery.inputmask.min.js")
+	//- script(src="js/libs/autosize.min.js")
+	//- script(src="js/libs/tooltipster.bundle.min.js")
+	//- script(src="js/libs/jquery.mmenu.min.all.js")
+	//- script(src="js/libs/wow.min.js")
+	//- script(src="js/libs/fullpage.min.js")
+	//- script(src="js/libs/jquery.vide.min.js")
+	//- script(src="js/libs/jquery.scrollbar.min.js")
+	//- script(src="http://api-maps.yandex.ru/2.1/?lang=ru_RU")
+	//- script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDArYzQvxn3CL3pB92Iqn9gaDltBFLfF4Y")
