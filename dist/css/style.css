@@ -143,7 +143,7 @@ a {
     padding-bottom: 25px;
     background-image: url(../img/image.png);
     background-repeat: no-repeat;
-    background-position: top left 150px;
+    background-position: top left;
     background-size: auto 86%; }
   .welcome_row {
     display: -webkit-box;
