@@ -10,8 +10,8 @@
     padding-bottom: 25px;
     background-image: url(../img/image.png);
     background-repeat: no-repeat;
-    background-position: top left;
-    background-size: auto 86%;
+    background-position: top 20px left 200px;
+    // background-size: auto 86%;
   }
 	&_row {
 		display: flex;
@@ -54,11 +54,12 @@
   }
   @media (max-width: 1600px) {
     >.wrapper {
-      background-position: top left -200px;
+      background-position: top 50px left;
     }
   }
   @media (max-width: $break_xl) {
     >.wrapper {
+      background-position: top 50px left -200px;
     }
     &_content {
       max-width: 450px;
@@ -88,7 +89,7 @@
   }
   @media (max-width: $break_md) {
     >.wrapper {
-      background-position: top left -500px;
+      background-position: top left -400px;
     }
     &_content {
       margin-right: 0;
